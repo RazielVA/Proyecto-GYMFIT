@@ -1,0 +1,35 @@
+body{
+
+    background:#f3f3f3;
+    /* Ubicación de la imagen */
+    background-image: url("../imgHD/estiramiento.jpg");
+    /* Para dejar la imagen de fondo centrada, vertical y horizontalmente */
+    background-position: center center;
+    /* Para que la imagen de fondo no se repita */
+    background-repeat: no-repeat;
+    /* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+    background-attachment: fixed;
+    /* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+    background-size: cover;
+    /* Se muestra un color de fondo mientras se está cargando la imagen de fondo o si hay problemas para cargarla */
+
+}
+
+#circulo {
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    background: #FEC400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: #4A235A 5px solid;
+}
+#circulo > p {
+    padding-top: 10px;
+    font-family: sans-serif;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}

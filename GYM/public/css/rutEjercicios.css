@@ -1,0 +1,17 @@
+img {
+    width: 100%;
+    margin-top: 10px;
+}
+body{
+    color: white;
+    background-color: black;
+}
+.verticaltext{
+    width:1px;
+    word-wrap: break-word;
+    white-space:pre-wrap;
+}
+#cont{
+    padding-top: 50px;
+    padding-bottom: 80px;
+}

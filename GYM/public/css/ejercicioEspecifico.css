@@ -1,0 +1,16 @@
+body {
+    background-color: #273744;
+}
+
+h1{
+    color:#FEC400;
+}
+
+
+.fondo{
+    background-color: #FEC400;
+    color:#273745;
+}
+#esquinas{
+    border-radius: 50px;
+}

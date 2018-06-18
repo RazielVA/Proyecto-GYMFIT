@@ -1,0 +1,19 @@
+.table-responsive {
+    display: table;
+}
+#c{
+    padding-top: 50px;
+}
+h1{
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+#miTablaPersonalizada th{
+    width: 150px !important;
+    overflow: auto;
+
+}
+/*table{*/
+    /*table-layout: fixed;*/
+    /**/
+/*}*/

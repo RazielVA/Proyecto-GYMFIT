@@ -1,0 +1,42 @@
+body{
+  /* Ubicación de la imagen */
+background-image: url("../imgHD/chico.jpg");
+/* Para dejar la imagen de fondo centrada, vertical y horizontalmente */
+background-position: center center;
+/* Para que la imagen de fondo no se repita */
+background-repeat: no-repeat;
+/* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+background-attachment: fixed;
+/* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+background-size: cover;
+/* Se muestra un color de fondo mientras se está cargando la imagen de fondo o si hay problemas para cargarla */
+}
+.card{
+	margin-top: 10%;
+	margin-left: 50%;
+	background-color: #454545;
+	color: white;
+	padding-bottom: 10px;
+}
+.btn{
+	background-color: white;
+}
+h5{
+	padding-bottom: 3px;
+	padding-top: 3px;
+}
+
+#cont{
+	padding-bottom: 100px;
+}
+.panel-transparent {
+	background: none;
+}
+
+.panel-transparent .panel-heading{
+	background: rgba(122, 130, 136, 0.2)!important;
+}
+
+.panel-transparent .panel-body{
+	background: rgba(46, 51, 56, 0.2)!important;
+}
